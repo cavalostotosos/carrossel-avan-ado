@@ -45,11 +45,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	border-radius: 15px;
-	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+
 	-webkit-box-reflect: below 10px
-		linear-gradient(transparent 0%, transparent 40%, rgba(0, 0, 0, 0.8) 100%);
-	box-reflect: below 10px
-		linear-gradient(transparent 0%, transparent 40%, rgba(0, 0, 0, 0.8) 100%);
+	
 }
 
 .image-container.center {
