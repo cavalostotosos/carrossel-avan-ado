@@ -85,9 +85,3 @@ document.addEventListener("DOMContentLoaded", () => {
 	new ReflectionCarousel();
 });
 
-document.addEventListener("mousemove", (e) => {
-	const x = (e.clientX / window.innerWidth) * 100;
-	const y = (e.clientY / window.innerHeight) * 100;
-
-	document.body.style.background = `radial-gradient(ellipse at ${x}% ${y}%, #3a3a3a 0%, #0a0a0a 100%)`;
-});
